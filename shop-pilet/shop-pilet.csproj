@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <PiralInstance>../appshell/dist/emulator/appshell-1.0.0.tgz</PiralInstance> 
+    <ConfigFolder>.piralconfig</ConfigFolder>
+    <Version>1.0.1</Version>
+    <OutputFolder>../.piral~</OutputFolder>
+    <ProjectsWithStaticFiles>
+      design-system
+    </ProjectsWithStaticFiles>
+</PropertyGroup>
+
+<ItemGroup>
+  <PackageReference Include="AspNetCore.SassCompiler" Version="1.55.0" />
+  <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.9" />
+  <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.9" PrivateAssets="all" />
+  <PackageReference Include="Piral.Blazor.Tools" Version="6.0.4-pre.20220926.6" />
+  <PackageReference Include="Piral.Blazor.Utils" Version="6.0.4-pre.20220926.6" />
+</ItemGroup>
+
+<ItemGroup>
+	<ProjectReference Include="..\design-system\design-system.csproj" />
+</ItemGroup>
+
+</Project>

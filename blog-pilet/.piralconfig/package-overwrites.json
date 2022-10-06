@@ -1,0 +1,9 @@
+{
+  "name": "blog-pilet",
+  "scripts": {
+    "start": "pilet debug --feed https://dev-api.casablanca.at/piral/api/v1/pilet/testing",
+    "start:local": "pilet debug ./src/index.tsx ../layout-pilet/src/index.tsx ../shop-pilet/src/index.tsx",
+    "publish": "pilet publish --fresh --api-key 70c6a6b7089ccbb622fac53379400e925487bcc31f465e565a80d35f5a745924 --url https://dev-api.casablanca.at/piral/api/v1/pilet/testing" 
+  }
+}
+ 

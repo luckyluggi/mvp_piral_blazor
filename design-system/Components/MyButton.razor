@@ -1,0 +1,11 @@
+﻿@namespace design_system
+
+<button class="my-button" @onclick="OnClick">
+    @ChildContent
+</button>
+
+@code{
+    [Parameter]
+    public EventCallback<MouseEventArgs> OnClick { get; set; }
+    [Parameter] public RenderFragment ChildContent { get; set; }
+} 

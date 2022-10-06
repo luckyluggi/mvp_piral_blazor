@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "piral.blazor.analyzer": {
+      "version": "6.0.4-pre.20220926.6",
+      "commands": [
+        "Piral.Blazor.Analyzer"
+      ]
+    }
+  }
+}
