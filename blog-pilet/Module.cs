@@ -1,3 +1,4 @@
+using design_system;
 using Microsoft.Extensions.DependencyInjection;
 
 public class Module
@@ -14,6 +15,5 @@ public class Module
 
     public static void ConfigureShared(IServiceCollection services)
     {
-
     }
 }

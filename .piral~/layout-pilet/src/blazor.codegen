@@ -127,7 +127,7 @@ function checkBlazorVersion(piletBlazorVersion, appshellBlazorVersion) {
 var targetFramework = "net6.0";
 var targetFrameworkAlt = ".NETCoreApp,Version=v6.0";
 var configFolderName = ".piralconfig";
-var blazorprojectfolder = "C:/dev/_try/mvp_feed_service_problems/layout-pilet";
+var blazorprojectfolder = "C:/dev/_try/mvp_piral_blazor_2/layout-pilet";
 var isRelease = process.env.NODE_ENV === "production";
 var configuration = isRelease ? "Release" : "Debug";
 var action = isRelease ? "publish" : "build";

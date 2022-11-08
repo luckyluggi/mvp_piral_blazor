@@ -10,11 +10,10 @@ public class Module
 
     public static void ConfigureServices(IServiceCollection services)
     {
-
+        services.AddScoped<ExampleJsInterop>();
     }
 
     public static void ConfigureShared(IServiceCollection services)
     {
-        services.AddScoped<ExampleJsInterop>();
     }
 }

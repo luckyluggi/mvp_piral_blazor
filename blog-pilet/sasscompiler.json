@@ -1,9 +1,9 @@
 {
-  "ScopedCssFolders": ["Pages", "Components"],
-  "Arguments": "--style=compressed",
+  "ScopedCssFolders": [ "Pages", "Components" ],
+  "Arguments": "--style=compressed --no-source-map",
   "Configurations": {
     "Debug": {
-      "Arguments": "--style=expanded"
+      "Arguments": "--style=expanded --no-source-map"
     }
   }
 }
